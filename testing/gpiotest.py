@@ -2,6 +2,10 @@ import machine
 import utime
 import builtins
 
+#This application is meant to use a LED to test each GPIO pin after 
+#soldering headers onto a Pico Pi.  Just cycle through the GPIO pins
+#one at a time.  
+
 number = 0
 done = False
 conTest = ""
